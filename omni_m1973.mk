@@ -21,7 +21,7 @@ PRODUCT_RELEASE_NAME := m1973
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit some common MK stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_NAME := omni_m1973
 PRODUCT_BRAND := meizu
