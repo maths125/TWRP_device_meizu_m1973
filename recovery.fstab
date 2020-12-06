@@ -20,4 +20,4 @@
 /private        emmc    /dev/block/bootdevice/by-name/private       flags=backup=1;subpartitionof=/persist
 
 # Removable storage
-/usb-otg        vfat    /dev/block/sda1         /dev/block/sda      flags=storage;wipeingui;removable
+/usb_otg       vfat   /dev/block/sdg1                    /dev/block/sdg          flags=fsflags=utf8;display="USB-OTG";storage;wipeingui;removable
